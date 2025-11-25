@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+temperature_data.Json.dat filter=lfs diff=lfs merge=lfs -text
+dataset/temperature_data.Json.dat filter=lfs diff=lfs merge=lfs -text
+dataset/temperature_data.json filter=lfs diff=lfs merge=lfs -text
+dataset/tas_ssp245_2015to2030.xls filter=lfs diff=lfs merge=lfs -text

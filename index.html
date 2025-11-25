@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3 Interactive Heatmap</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Global Temperature Change Heat Map (2015-2030)</h2>
+        
+        <div class="slider-box">
+            <label for="time-slider">Current time：</label>
+            <span id="current-time-display">2015-01-16 12:00:00</span>
+            <input type="range" id="time-slider" min="0" max="X" value="0" style="width: 100%;">
+        </div>
+        
+        <div id="map-container">
+            </div>
+
+    </div>
+    
+    <script src="heatmap.js"></script>
+</body>
+</html>
